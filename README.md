@@ -5,6 +5,7 @@ This code reads in data from USGS and uses supplemental data downloaded for the 
 The code will compile flow data into annual yield, and also performs the same process of identifying rain events in the dataset.
 
 The code will also produce a few hydrographs of specific rain events or portions of rain events.
+As with the rain project, a "rain event" is classified as rainfall that is preceded and followed by at least six hours of dry weather.
 The hydrograph code is adapted from Chuliang Xiao, at https://rpubs.com/cxiao/hydrograph-ggplot2-plot
 
 Example hydrographs:
